@@ -49,7 +49,7 @@ module.exports = async function (context, req) {
     </head>
     <body>
 
-    <h1>The next every other Tuesday call is ${nextcall} at 7:00 PT!</h1>
+    <h1>The next Every Other Tuesday Call is ${nextcall} at 7:00 PT!</h1>
 
     </body>
     </html>`;
