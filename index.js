@@ -32,7 +32,7 @@ module.exports = async function (context, req) {
 
     const weekNr = ISO8601_week_no(target);
     
-    if(weekNr % 2 == 0) target.addDays(7);
+    if(weekNr % 2 == 0) target = target.addDays(7);
 
     let nextcall;
     if (today.toDateString() == target.toDateString()) {
